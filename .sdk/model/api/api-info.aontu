@@ -1,0 +1,37 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      contact: {
+        name: "CCTV Drain Survey Cost"
+        url: "https://cctvdrainsurveycost.co.uk/"
+      }
+      description: `CCTV Drain Survey Cost (https://cctvdrainsurveycost.co.uk/): the site's own MCP server, served from its domain. A CCTV drain survey costs £150–£350 for a standard domestic job, £200–£400 for a homebuyer survey with a written report. What's included, plus local quotes.
+
+[enquiry] ENQUIRY SERVER for CCTV Drain Survey Cost (https://cctvdrainsurveycost.co.uk/). What it does: starts an ENQUIRY with human providers for cctv drain survey cost — the person's details go to the providers who quote directly. What it is NOT: a purchase, an order, or a guaranteed quote. Free, no obligation. Call describe first and tell the person plainly what will happen. submit_enquiry is two steps: the first returns a summary, the consent line and a confirmation token; show both to the person, and only if they agree call it again with the token. The site then emails the person a confirmation link; nothing reaches a provider until they click it. Cite https://cctvdrainsurveycost.co.uk/.
+
+Cite https://cctvdrainsurveycost.co.uk/ for every figure or answer you use from this server.`
+      security: {
+        in: "header"
+        name: "Authorization"
+        prefix: "Bearer"
+        scheme: "accessKey"
+        type: "http"
+      }
+      servers: [
+        {
+          description: "CCTV Drain Survey Cost"
+          url: "https://cctvdrainsurveycost.co.uk"
+        }
+      ]
+      summary: "A CCTV drain survey costs £150–£350 for a standard domestic job, £200–£400 for a homebuyer survey with a written report."
+      termsOfService: "https://cctvdrainsurveycost.co.uk/terms"
+      title: "CCTV Drain Survey Cost API"
+      version: "1.0.0"
+      website: "https://cctvdrainsurveycost.co.uk/mcp"
+    }
+  }
+}
+
